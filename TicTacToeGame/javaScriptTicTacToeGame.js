@@ -52,6 +52,7 @@ boxes.forEach((box)=>{
 
 const disableBoxes=()=>{
     boxes.forEach(box=>box.disabled=true);
+    resetbtn.disabled=true;
 }
 
 const checkWinner=()=>{
