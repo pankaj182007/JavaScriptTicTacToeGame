@@ -47,3 +47,20 @@ student.__proto__=calculation;
 //calling the properties of an objects
 student.add();
 
+//creating a class
+class Cars{
+    startCar()
+    {
+        console.log("Car started");
+    }
+
+    stopCar(){
+        console.log("Car Stoped");
+    }
+}
+
+//creating object of Cars class
+let car =new Cars();
+//calling methods of class
+car.startCar();
+car.stopCar();
